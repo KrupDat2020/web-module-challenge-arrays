@@ -83,7 +83,8 @@ Use the addFlavor function below to do the following:
 
 
 function addFlavor(/*your code here*/){
-   /*your code here*/
+   addFlavor.unshift('rainbow sherbert');
+   console.log(addFlavor);
 }
 
 
@@ -99,7 +100,8 @@ Use the removeLastFlavor function below to do the following:
 */
 
 function removeLastFlavor(/*your code here*/){
-   /*your code here*/
+   removeLastFlavor.pop();
+   return removeLastFlavor;
 }
 
 
@@ -116,7 +118,7 @@ Use the getFlavorByIndex function below to do the following:
 */
 
 function getFlavorByIndex(/*your code here*/){
-    /*your code here*/
+    console.log(getFlavorByIndex[2]);
 }
 
 
